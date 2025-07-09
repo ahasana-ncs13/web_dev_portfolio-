@@ -6,9 +6,11 @@
   font-variation-settings:
     "wdth" 100;
 }
-/* share styes */
-.text-primary{
-    color: #FD6E0A;
+/* header */
+.header{
+    background-image: url("../images/developer.png"),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
 }
 /* nav styles */
 nav {
@@ -19,7 +21,11 @@ nav {
 }
 .nav title{
     font-weight: bolder;
-    font-size: 45px;
+    font-size:45px;
+}
+/* share styes */
+.text-primary{
+    color: #FD6E0A;
 }
 nav ul{
     display: flex;
@@ -42,4 +48,31 @@ nav ul li {
    font-weight: bold;
    font-size: 20px;
    padding: 18px 38px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.banner-content{
+    width: 585px;
+    
+}
+.banner-greetings{
+    font-weight:500px;
+    font-size: 45px;
+    color: #474747;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+
+}
+.banner-description{
+    font-size: 18px;
+}
+
+.banner-profile-pic{
+    width: 585;
 }
